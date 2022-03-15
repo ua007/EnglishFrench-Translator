@@ -7,8 +7,10 @@ from dotenv import load_dotenv
 #from pandas import json_normalize
 
 load_dotenv()
-apikey=os.environ['apikey']
-url=os.environ['url']
+#apikey=os.environ['apikey']
+#url=os.environ['url']
+apikey='ggCYjXNKAVBXwIO5E6x2k0pn4whbiiruZ_50OCu8RaeD'
+url='https://api.au-syd.language-translator.watson.cloud.ibm.com/instances/9f907e30-109d-4b4b-a907-999b4191327d'
 
 authenticator = IAMAuthenticator(apikey)
 language_translator = LanguageTranslatorV3(
